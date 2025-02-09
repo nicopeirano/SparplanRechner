@@ -18,7 +18,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mt-6">Sparplan Rechner</h1>
       <div className="bg-white p-6 rounded-lg shadow-md mt-6 w-full max-w-md">
         <div className="mb-4">
-          <label className="block text-gray-700">Startbetrag (CHF)</label>
+          <label className="block text-gray-700">Startbetrag  (CHF)</label>
           <input 
             type="text" 
             value={startbetrag} 
