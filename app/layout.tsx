@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 
 export const metadata = {
@@ -12,8 +13,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
       <div className="navbar bg-base-100">
         <a className="btn btn-ghost text-xl">daisyUI</a>
-        <a href="/" className="btn">Sparplan Rechner</a>
-          <a href="/about" className="btn">Über mich</a>
+        <Link href="/" className="btn">Sparplan Rechner</Link>
+        <Link href="/about" className="btn">Über mich</Link>
       </div>
         
         {children}
